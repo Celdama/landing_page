@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greeno</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav
+        id="nav-bar"
+        class="navbar navbar-expand-lg navbar-light fixed-top"
+        style="background-color: rgb(240, 243, 242)"
+      >
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img id="header-img" src="./Images/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            id="navbarText"
+            class="collapse navbar-collapse justify-content-end"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#collection-section">Collection</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#choice-section">Choice</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#step-section">Steps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid">
+      <div class="container d-flex">
+        <div
+          class="
+            main-content
+            col-6 col-xl-none
+            d-flex
+            flex-column
+            pt-lg-5
+            pe-lg-5
+          "
+        >
+          <h1 class="mb-4">
+            Plant a Tree<br />
+            and Green the Earth
+          </h1>
+          <button
+            class="
+              btn btn-success
+              align-self-start
+              border-0
+              mt-2
+              px-4
+              py-2
+              btn-custom
+            "
+          >
+            Get Start
+          </button>
+        </div>
+        <div class="main-img position-relative col-6">
+          <div class="box my-4">
+            <div class="circle position-absolute">
+              <img
+                class="position-absolute"
+                src="./Images/plant.png"
+                alt="a big green plant"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="video-section" class="container-fluid">
+      <div class="container d-flex justify-content-center">
+        <iframe
+          id="video"
+          src="https://www.youtube.com/embed/Jh5oX0VRnzk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <section id="collection-section" class="container-fluid">
+      <div class="container mt-5 mb-5 py-5">
+        <h2 class="text-center py-5">Plant Collection</h2>
+        <div class="d-flex justify-content-center flex-wrap">
+          <article
+            class="collection-card flex-grow-1 d-inline-block m-4 m-lg-4 m-xl-3"
+          >
+            <img src="./Images/plant_1.jpg" alt="another beautiful plant" />
+            <p class="my-3">Bird Of Paradise</p>
+          </article>
+          <article
+            class="collection-card flex-grow-1 d-inline-block m-4 m-lg-4 m-xl-3"
+          >
+            <img src="./Images/plant_2.jpg" alt="another beautiful plant" />
+            <p class="my-3">Rubber Plants</p>
+          </article>
+          <article
+            class="collection-card flex-grow-1 d-inline-block m-4 m-lg-4 m-xl-3"
+          >
+            <img src="./Images/plant_3.jpg" alt="another beautiful plant" />
+            <p class="my-3">String Of Pearls</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="choice-section" class="container-fluid p-5">
+      <div class="container mt-5 mb-5 py-5">
+        <h2 class="text-center py-5">Chooseing the Right Plant</h2>
+        <div class="d-flex justify-content-center flex-wrap">
+          <article
+            class="flex-grow-1 card-white d-flex flex-column align-items-start"
+          >
+            <i class="bi bi-flower1 p-3"></i>
+            <h3 class="mt-3">Garden Plants</h3>
+            <p>
+              Empowering all people to be plant people a collection of articles
+            </p>
+          </article>
+          <article
+            class="flex-grow-1 card-green d-flex flex-column align-items-start"
+          >
+            <i class="bi bi-shop icon-white p-3"></i>
+            <h3 class="mt-3">Office Plants</h3>
+            <p>
+              Empowering all people to be plant people a collection of articles
+            </p>
+          </article>
+          <article
+            class="flex-grow-1 card-white d-flex flex-column align-items-start"
+          >
+            <i class="bi bi-house p-3"></i>
+            <h3 class="mt-3">Home Plants</h3>
+            <p>
+              Empowering all people to be plant people a collection of articles
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial-section" class="container-fluid">
+      <div class="container mt-5 mb-5 d-flex position-relative p-4">
+        <div
+          class="
+            align-self-end
+            testimonial-text
+            d-flex
+            flex-column
+            justify-content-center
+          "
+        >
+          <p class="my-5">
+            Empowering all people to be plant people - a collection of articles
+            from The Sill's team of Plant Experts across a variety of plant care
+            topics to inspire confidence in the next generation of plant
+            parents. Welcome to Plant Parenthood
+          </p>
+          <p><span class="founder">John Roy</span><br />by Founder</p>
+        </div>
+        <div>
+          <img
+            class="position-absolute"
+            src="./Images/plant-testi.png"
+            alt="another beautiful plant"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="step-section" class="container-fluid pb-5">
+      <div class="container pt-5">
+        <h2 class="text-center py-5">Follow our Steps & Get your Plant</h2>
+        <div class="d-flex justify-content-center pt-5 flex-wrap">
+          <article
+            class="
+              flex-grow-1
+              d-flex
+              justify-content-end
+              flex-column
+              position-relative
+              my-5
+              mx-md-3
+              p-4
+            "
+          >
+            <span class="position-absolute">01</span>
+            <h3 class="mt-3">Choose plants</h3>
+            <p>
+              Empowering all people to be plant people a collection of articles
+            </p>
+          </article>
+          <article
+            class="
+              flex-grow-1
+              d-flex
+              justify-content-end
+              flex-column
+              position-relative
+              my-5
+              mx-md-3
+              p-4
+            "
+          >
+            <span class="position-absolute">02</span>
+            <h3 class="mt-3">Place an order</h3>
+            <p>
+              Empowering all people to be plant people a collection of articles
+            </p>
+          </article>
+          <article
+            class="
+              flex-grow-1
+              d-flex
+              justify-content-end
+              flex-column
+              position-relative
+              my-5
+              mx-md-3
+              p-4
+            "
+          >
+            <span class="position-absolute">03</span>
+            <h3 class="mt-3">Get plant delivered</h3>
+            <p>
+              Empowering all people to be plant people a collection of articles
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="form-section">
+      <div class="container d-flex flex-column align-items-center">
+        <h2 class="py-5">Stay in Touch</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            class="text-center form-control"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email adress"
+            required
+          />
+          <input
+            class="btn btn-success border-0 mt-3 px-4 py-2 btn-custom"
+            type="submit"
+            value="Get Started"
+            id="submit"
+          />
+        </form>
+      </div>
+    </section>
+    <footer
+      class="container-fluid mt-5 border-top d-flex justify-content-center"
+    >
+      <div class="container row row-cols-4">
+        <div class="col">
+          <h4>Greeno</h4>
+        </div>
+        <div class="col">
+          <h5>Useful Links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0">About Us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0">Services</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col contact-links">
+          <h5>Contact Us</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0">880 112 345</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5>Adress</h5>
+          <p>
+            Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi<br />96552
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
