@@ -67,6 +67,7 @@ p {
 
 .btn-custom {
   background-color: var(--green-color);
+  align-self: flex-start;
 }
 
 .box {
