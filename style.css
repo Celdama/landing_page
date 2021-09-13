@@ -91,14 +91,12 @@ p {
 }
 
 #collection-section {
-  /* outline: 2px solid salmon; */
   padding-bottom: 30px;
 }
 
 .collection-card {
   height: 480px;
   flex: 1 1 auto;
-  /* outline: 1px solid red; */
 }
 
 .collection-card p {
@@ -106,7 +104,6 @@ p {
   font-weight: bold;
   font-size: 1.4em;
   color: var(--green-color);
-  /* outline: 1px solid green; */
   padding: 4px;
 }
 
@@ -116,16 +113,11 @@ p {
   object-fit: cover;
 }
 
-#collection-section article {
-  /* outline: 1px solid red; */
-}
-
 #choice-section {
   background-color: var(--white-color);
 }
 
 #choice-section article {
-  height: 240px;
   width: 300px;
   padding: 2em 4em 2em 1em;
   margin: 0.6em;
